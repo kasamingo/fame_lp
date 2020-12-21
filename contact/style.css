@@ -28,10 +28,10 @@ html,body{
     padding:0;
     width:100%;
 }
-html{
-    /*background:linear-gradient(to bottom left, #fffa96, #ffffe1);*/
-    background:linear-gradient(to bottom left, #ff9100, #fff000);
-    min-height:100%;
+html {
+    background: linear-gradient(to bottom left, #fffa96, #ffffe1);
+    background: linear-gradient(to bottom left, #c8ffff, #ffffff);
+    min-height: 100%;
 }
 body{
     -webkit-text-size-adjust:100%;/*スマホ対応-画面を回転させてもページの拡大率が変わらない*/
@@ -114,13 +114,13 @@ article {
         padding: 100px 20px 50px 20px;
     }
 }
-h1{
-    color:#ff9100;
-    font-size:26px;
-    font-weight:bold;
-    line-height:1.5;
-    padding:0;
-    text-align:center;
+h1 {
+    color: #000000;
+    font-size: 26px;
+    font-weight: bold;
+    line-height: 1.5;
+    padding: 0;
+    text-align: center;
 }
 @media screen and (max-width:750px) {
 h1{
