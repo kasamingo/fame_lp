@@ -95,13 +95,13 @@
       <nav class="drawer-content">
         <ul class="drawer-list">
           <li class="drawer-item">
-            <a id="we" href="index.html#about">お家の定期点検？</a>
+            <a href="index.html#about" onclick="clw()">お家の定期点検？</a>
           </li><!-- /.drawer-item -->
           <li class="drawer-item">
-            <a id="we1" href="#trouble">こんなお悩みは？</a>
+            <a href="#trouble" onclick="clw()">こんなお悩みは？</a>
           </li><!-- /.drawer-item -->
           <li class="drawer-item">
-            <a id="we2" href="#check">サービス内容<br>お家の健康診断</a>
+            <a href="#check" onclick="clw()">サービス内容<br>お家の健康診断</a>
           </li><!-- /.drawer-item -->
         </ul><!-- /.drawer-list -->
       </nav>
@@ -109,20 +109,11 @@
   </header>
 
   <script>
-    const btn = document.getElementById('we');
-    const btn1 = document.getElementById('we1');
-    const btn2 = document.getElementById('we2');
     const target = document.getElementById('drawer-check');
 
-    btn.addEventListener('click', () => {
+    function clw(){
       target.checked = false;
-    });
-    btn1.addEventListener('click', () => {
-      target.checked = false;
-    });
-    btn2  .addEventListener('click', () => {
-      target.checked = false;
-    });
+    };
   </script>
 
   <!---------------------------------------------------ハンバーガメニュー-->
