@@ -216,9 +216,10 @@ header{
 	background:#111;
 	padding:10px 0 10px 10px;
 }
-header img{
-	width:145px;
-	height:30px;
+header img {
+    width: 145px;
+    height: 41px;
+    margin-left: -2vw;
 }
 
 /*h2*/
