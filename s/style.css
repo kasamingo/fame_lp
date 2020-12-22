@@ -869,18 +869,17 @@ div.builder.see{
   /* ハンバーガーアイコンの設置スペース */
   .drawer-open {
     display: flex;
-    height: 55px;
-    width: 60px;
+    height: 35px;
+    width: 40px;
     justify-content: center;
     align-items: center;
     position: fixed;
     background-color: gray;
     z-index: 100;
-    top: 0px;
+    top: 9px;
     cursor: pointer;
     right: 20px;
 }
-
   
   /* ハンバーガーメニューのアイコン */
   .drawer-open span,
