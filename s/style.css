@@ -845,9 +845,10 @@ div.builder.see{
     display: flex;
     justify-content: space-between;
     align-items: center;
+    height: 55px;
     padding: 0 20px;
     background: #fff;
-  }
+}
   
   .logo {
     font-size: 24px;
@@ -868,14 +869,18 @@ div.builder.see{
   /* ハンバーガーアイコンの設置スペース */
   .drawer-open {
     display: flex;
-    height: 60px;
+    height: 55px;
     width: 60px;
     justify-content: center;
     align-items: center;
-    position: relative;
-    z-index: 100;/* 重なり順を一番上に */
+    position: fixed;
+    background-color: gray;
+    z-index: 100;
+    top: 0px;
     cursor: pointer;
-  }
+    right: 20px;
+}
+
   
   /* ハンバーガーメニューのアイコン */
   .drawer-open span,
