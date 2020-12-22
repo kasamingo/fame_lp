@@ -222,6 +222,7 @@ header img {
     margin-left: -2vw;
 }
 
+
 /*h2*/
 h2{
     font-family: 'M PLUS 1p', sans-serif;
@@ -946,3 +947,20 @@ div.builder.see{
     display: none;
 }
 
+.store {
+    width: 55%;
+    height: auto;
+    position: relative;
+    left: 50%;
+    margin: 30px 0 30px 0;
+    transform: translatex(-50%);
+}
+.off {
+    width: 55%;
+    height: auto;
+    position: relative;
+    margin-top: 53px;
+    margin-bottom: 41px;
+    left: 50%;
+    transform: translatex(-50%);
+}
