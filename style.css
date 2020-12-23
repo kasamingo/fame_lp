@@ -152,7 +152,7 @@ div.content750{
 /*#main*/
 section#main {
     background: url(http://127.0.0.1:5500/img/ho.png) no-repeat center top -2px /cover;
-    height: 700px;
+    height: 100vh;
     padding: 50px 10px 0 10px;
 }
 section#main h1{
