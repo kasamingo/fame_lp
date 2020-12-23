@@ -88,14 +88,14 @@ body{
 }
 
 /*div#menu*/
-div#menu{
-    background: #e6e6e6;
-	padding:50px 15px 15px 15px;
-	width:200px;
-	height:100%;
-	position:fixed;
-	top:0;
-	left:0;
+div#menu {
+    background: #ffffff;
+    padding: 50px 15px 15px 15px;
+    width: 200px;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
 }
 div#menu p.logo a{
 	border-bottom:none;
@@ -151,7 +151,7 @@ div.content750{
 
 /*#main*/
 section#main {
-    background: url(img/pepole.jpg) no-repeat center top -436px;
+    background: url(img/ho.png) no-repeat center top;
     height: 700px;
     padding: 50px 10px 0 10px;
 }
@@ -713,7 +713,8 @@ div.builder.see{
     position: relative;
     z-index: 3;
     top: -1vw;
-}
+    left: -2vw;
+}   
 .totop{
     background-color: gray;
 }
