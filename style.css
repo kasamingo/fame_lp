@@ -151,7 +151,7 @@ div.content750{
 
 /*#main*/
 section#main {
-    background: url(http://127.0.0.1:5500/img/pepole.jpg) no-repeat center top -436px;
+    background: url(img/pepole.jpg) no-repeat center top -436px;
     height: 700px;
     padding: 50px 10px 0 10px;
 }
@@ -713,4 +713,7 @@ div.builder.see{
     position: relative;
     z-index: 3;
     top: -1vw;
+}
+.totop{
+    background-color: gray;
 }
