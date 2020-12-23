@@ -722,7 +722,7 @@ div.builder.see{
 .text-img {
     position: relative;
     z-index: 3;
-    top: -1vw;
+    top: 0vw;
     left: -2vw;
 }   
 .totop{
