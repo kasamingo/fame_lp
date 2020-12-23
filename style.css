@@ -151,7 +151,7 @@ div.content750{
 
 /*#main*/
 section#main {
-    background: url(img/ho.png) no-repeat center top;
+    background: url(img/ho.png) no-repeat center top -125px /cover;
     height: 700px;
     padding: 50px 10px 0 10px;
 }
