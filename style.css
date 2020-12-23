@@ -150,10 +150,10 @@ div.content750{
 }
 
 /*#main*/
-section#main{
-    background:url("img/12345.jpg") no-repeat center top;
-    height:700px;
-    padding:50px 10px 0 10px;
+section#main {
+    background: url(http://127.0.0.1:5500/img/pepole.jpg) no-repeat center top -436px;
+    height: 700px;
+    padding: 50px 10px 0 10px;
 }
 section#main h1{
     margin:0 auto;
@@ -696,6 +696,7 @@ div.builder.see{
 .store {
     padding-bottom: 2.7vw;
 }
+/*
 .rayer {
     width: 70%;
     height: 29%;
@@ -707,8 +708,9 @@ div.builder.see{
     opacity: 0.9;
     left: 50vw;
     transform: translateX(-36%);
-}
-.text-img{
+}*/
+.text-img {
     position: relative;
     z-index: 3;
+    top: -1vw;
 }
