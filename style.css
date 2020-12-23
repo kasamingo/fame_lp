@@ -696,3 +696,19 @@ div.builder.see{
 .store {
     padding-bottom: 2.7vw;
 }
+.rayer {
+    width: 70%;
+    height: 29%;
+    background-color: #ffffff;
+    position: absolute;
+    top: 5vw;
+    z-index: 2;
+    border-radius: 51%;
+    opacity: 0.9;
+    left: 50vw;
+    transform: translateX(-36%);
+}
+.text-img{
+    position: relative;
+    z-index: 3;
+}
