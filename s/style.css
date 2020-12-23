@@ -301,6 +301,7 @@ section#about{
     background: linear-gradient(to bottom left, #36ea8f, #ffffff);
     padding:60px 15px;
     text-align:center;
+    box-shadow: inset 2px 2px 10px black;
 }
 section#about h2{
     color:#111;
@@ -410,6 +411,7 @@ h2.check_pilot_h2{
 section#check{    
     background: linear-gradient(to bottom left, #36ea8f, #ffffff);
     padding:60px 15px;
+    box-shadow: inset 2px 2px 10px black;
 }
 section#check h3{
     color:#111;
@@ -534,7 +536,7 @@ section#check li.kotira ul.board{
     padding:25px 15px;
 }
 section#check li.kotira h4 {
-    border-bottom: 10px solid #ebef0c;
+    border-bottom: 2px solid #000000;
     color: #ff9100;
     font-family: 'M PLUS 1p', sans-serif;
     font-weight: 500;
