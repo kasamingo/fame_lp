@@ -98,10 +98,10 @@ div.wrapper{
     max-width:750px;
 }
 article {
-    background: #d6d2d2 url(http://127.0.0.1:5501/contact/img/mark_otasuke.png) no-repeat;
+    background: #ffffff url(http://127.0.0.1:5501/contact/img/mark_otasuke.png) no-repeat;
     background-size: 10% auto;
     background-position: center 20px;
-    border: 3px solid #ffe600;
+    border: 3px solid #000000;
     border-radius: 15px;
     margin: 0 auto;
     padding: 120px 30px 50px 30px;
@@ -292,4 +292,9 @@ div.wrapper.fin .thanks.fin p{
 img.spnav02 {
     height: 20px;
     margin-top: -32px;
+}
+
+
+.company-content div{
+    line-height: 34px;
 }
