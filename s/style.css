@@ -877,7 +877,7 @@ div.builder.see{
     justify-content: center;
     align-items: center;
     position: fixed;
-    background-color: gray;
+    background-color: #dcd7d7;
     z-index: 100;
     top: 9px;
     cursor: pointer;
