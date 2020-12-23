@@ -339,10 +339,10 @@ section#about p{
 }
 
 /*#trouble*/
-section#trouble{
-    background:linear-gradient(to bottom left, #ffffff, #ffffe1);
-    padding:60px 15px;
-    text-align:center;
+section#trouble {
+    background: linear-gradient(to bottom left, #ffffff, #ffffff);
+    padding: 60px 15px;
+    text-align: center;
 }
 section#trouble h2{
     color:#ff9100;
@@ -533,15 +533,15 @@ section#check li.kotira ul.board{
     height:100%;
     padding:25px 15px;
 }
-section#check li.kotira h4{
-    border-bottom:10px solid #fffa4b;
-    color:#ff9100;
+section#check li.kotira h4 {
+    border-bottom: 10px solid #ebef0c;
+    color: #ff9100;
     font-family: 'M PLUS 1p', sans-serif;
-    font-weight:500;
-    font-size:31px;
-    line-height:1.4;
-    padding-bottom:10px;
-    text-align:center;
+    font-weight: 500;
+    font-size: 31px;
+    line-height: 1.4;
+    padding-bottom: 10px;
+    text-align: center;
 }
 @media screen and (max-width: 380px) {
 section#check li.kotira h4{
