@@ -98,7 +98,7 @@ div.wrapper{
     max-width:750px;
 }
 article {
-    background: #ffffff url(http://127.0.0.1:5501/contact/img/mark_otasuke.png) no-repeat;
+    background: #ffffff url(img/rescue_logo_black.png) no-repeat;
     background-size: 10% auto;
     background-position: center 20px;
     border: 3px solid #000000;
@@ -108,7 +108,7 @@ article {
 }
 @media screen and (max-width:750px) {
     article {
-        background: #dad2d2 url(http://127.0.0.1:5501/contact/img/mark_otasuke.png) no-repeat;
+        background: #ffffff url(img/rescue_logo_black.png) no-repeat;
         background-size: 15% auto;
         background-position: center 20px;
         padding: 100px 20px 50px 20px;
