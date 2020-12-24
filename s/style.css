@@ -239,7 +239,7 @@ h2{
 
 /*ボタン ベース＆OTASUKEのサービス内容*/
 div.button {
-    background: #00ff37 url(http://127.0.0.1:5500/s/img/arrow.png) no-repeat;
+    background: #00ff37 url(s/img/arrow.png) no-repeat;
     background-size: 20px 20px;
     background-position: 95% 22px;
     border-radius: 5px;

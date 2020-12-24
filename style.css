@@ -177,7 +177,7 @@ h2{
 
 /*ボタン ベース＆OTASUKEのサービス内容*/
 div.button {
-    background: #4cc46d url(http://127.0.0.1:5500/img/arrow.png) no-repeat;
+    background: #4cc46d url(img/arrow.png) no-repeat;
     background-size: 25px 25px;
     background-position: 255px 25px;
     border-radius: 5px;
@@ -191,7 +191,7 @@ div.button {
     left: 17%;
 }
 div.button2 {
-    background: #03c400 url(http://127.0.0.1:5500/img/arrow.png) no-repeat;
+    background: #03c400 url(img/arrow.png) no-repeat;
     background-size: 25px 25px;
     background-position: 255px 25px;
     border-radius: 5px;
