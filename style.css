@@ -497,6 +497,11 @@ section#check li.kotira h4{
     font-size:22px;
 }
 }
+@media screen and (max-width:769px){
+    section#check li.kotira h4 {
+        font-size: 18px;
+    }
+}
 
 /*section#pilot*/
 section#pilot{
@@ -725,6 +730,14 @@ div.builder.see{
     top: 0vw;
     left: -2vw;
 }   
-.totop{
-    background-color: gray;
+
+@media screen and (max-width:1030px){
+
+    section#main {
+        height: 57vh;
+    }
+    .store {
+        padding-bottom: 5.7vw;
+    }
+    
 }
