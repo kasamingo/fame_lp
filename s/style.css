@@ -968,3 +968,23 @@ div.builder.see{
     left: 50%;
     transform: translatex(-50%);
 }
+
+
+
+@media screen and (max-width: 770px){
+    .one-line {
+        width: 66%;
+        position: relative;
+        /* height: 23%; */
+        left: 50%;
+        transform: translateX(-50%);
+    }
+}
+
+
+
+@media screen and (max-width: 420px){
+    .one-line {
+        width: 81%;
+    }
+}
