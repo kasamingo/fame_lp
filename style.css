@@ -728,7 +728,7 @@ div.builder.see{
     display: none;
 }
 .store {
-    padding-bottom: 2.7vw;
+    padding-bottom: 38px;
 }
 /*
 .rayer {
@@ -750,7 +750,7 @@ div.builder.see{
     left: -2vw;
 }
 .one-line{
-    padding: 1.2vw;
+    padding: 18px;
 }
 
 @media screen and (max-width:1030px){
