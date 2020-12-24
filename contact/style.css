@@ -298,3 +298,31 @@ img.spnav02 {
 .company-content div{
     line-height: 34px;
 }
+
+
+
+
+
+/*-------------------------------------------------もしかしたら追加するかもしれないLINE@へ飛ばすためのセクションのCSS*/
+.line {
+    width: 40%;
+    position: relative;
+    left: 20%;
+    margin-bottom: 6vw;
+    margin-top: 6vw;
+    transform: translateX(27%);
+}
+@media screen and (max-width:420px){
+    .line {
+        width: 65%;
+        left: 0%;
+    }
+    
+}
+@media screen and (max-width:380px){
+    .line {
+        width: 86%;
+        left: -17%;
+    }
+}
+/*-------------------------------------------------もしかしたら追加するかもしれないLINE@へ飛ばすためのセクションのCSS*/
