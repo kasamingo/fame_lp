@@ -312,6 +312,9 @@ img.spnav02 {
     margin-top: 6vw;
     transform: translateX(27%);
 }
+.line:hover{
+    
+}
 @media screen and (max-width:420px){
     .line {
         width: 65%;
