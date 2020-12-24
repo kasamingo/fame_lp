@@ -305,12 +305,10 @@ img.spnav02 {
 
 /*-------------------------------------------------もしかしたら追加するかもしれないLINE@へ飛ばすためのセクションのCSS*/
 .line {
-    width: 40%;
-    position: relative;
-    left: 20%;
+    width: 60%;
     margin-bottom: 6vw;
     margin-top: 6vw;
-    transform: translateX(27%);
+
 }
 .line:hover{
     

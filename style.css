@@ -186,6 +186,9 @@ div.button {
     width: 300px;
     padding: 0;
     transition: all 0.8s;
+    position: absolute;
+    bottom: 10%;
+    left: 17%;
 }
 div.button:hover{
     background:#ff9100 url("img/arrow.png") no-repeat;/*#FF9600 */
@@ -469,6 +472,8 @@ section#check li.kotira ul{
     border-radius:10px;
     height:100%;
     padding:15px 20px 40px 20px;
+    height: 600px;
+    position: relative;
 }
 section#check li.kotira li{
     margin-top:15px;
