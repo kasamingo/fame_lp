@@ -249,6 +249,7 @@ div.button {
     padding: 0;
     transition: all 0.8s;
 }
+
 div.button:hover{
     background:#ff9100 url("img/arrow.png") no-repeat;
     background-size:20px 20px;

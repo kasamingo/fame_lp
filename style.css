@@ -151,7 +151,7 @@ div.content750{
 
 /*#main*/
 section#main {
-    background: url(http://127.0.0.1:5500/img/ho.png) no-repeat center top -2px /cover;
+    background: url(img/ho.png) no-repeat center top -2px /cover;
     height: 100vh;
     padding: 50px 10px 0 10px;
 }
@@ -178,6 +178,20 @@ h2{
 /*ボタン ベース＆OTASUKEのサービス内容*/
 div.button {
     background: #4cc46d url(http://127.0.0.1:5500/img/arrow.png) no-repeat;
+    background-size: 25px 25px;
+    background-position: 255px 25px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 0 auto;
+    width: 300px;
+    padding: 0;
+    transition: all 0.8s;
+    position: absolute;
+    bottom: 10%;
+    left: 17%;
+}
+div.button2 {
+    background: #03c400 url(http://127.0.0.1:5500/img/arrow.png) no-repeat;
     background-size: 25px 25px;
     background-position: 255px 25px;
     border-radius: 5px;
@@ -734,17 +748,41 @@ div.builder.see{
     z-index: 3;
     top: 0vw;
     left: -2vw;
-}   
+}
+.one-line{
+    padding: 1.2vw;
+}
 
 @media screen and (max-width:1030px){
-
     section#main {
         height: 57vh;
     }
     .store {
         padding-bottom: 5.7vw;
     }
+    .one-line {
+        padding: 1.5vw;
+    }
+    div.button2 {
+        left: 11%;
+    }
+    div.button {
+        left: 11%;
+    }
     
 }
+
+@media screen and (max-width:780px){
+    div.button2 {
+        left: 11%;
+        width: 196px;
+    }
+    .one-line {
+        padding: 3.1vw;
+    }
+}
+
+
+
 
 
