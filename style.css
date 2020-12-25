@@ -752,6 +752,15 @@ div.builder.see{
 .one-line{
     padding: 18px;
 }
+.cta {
+    width: 36%;
+    position: fixed;
+    left: 79%;
+    top: 16px;
+    z-index: 30;
+    box-shadow: 2px 3px 5px 1px #00000059;
+    transform: translateX(-50%);
+}
 
 @media screen and (max-width:1030px){
     section#main {
