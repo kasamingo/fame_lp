@@ -996,3 +996,19 @@ div.builder.see{
     height: auto;
     margin-top: 8vw;
 }
+
+
+.pc-cta{
+    display: none;
+}
+.cta-wrapper {
+    background-color: #20b8de;
+    text-align: center;
+}
+.sp-ta {
+    width: 90%;
+    border-radius: 35px;
+    position: relative;
+    box-shadow: 2px 1px 11px black;
+    top: 10px;
+}
