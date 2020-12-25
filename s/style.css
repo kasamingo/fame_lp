@@ -24,6 +24,13 @@ select {
   outline:none;
 }
 
+#main{
+        width: 100%;
+        margin: 0;
+        padding: 0;
+        height: 90vh;
+        background: #20b8de;
+}
 html,body{
 	/*font-size:62.5%;*/
 	background:#fff;
@@ -1011,5 +1018,5 @@ div.builder.see{
     border-radius: 35px;
     position: relative;
     box-shadow: 2px 1px 11px white;
-    top: 10px;
+    top: -60px;
 }
