@@ -126,12 +126,12 @@ nav li{
 	width:100%;
 	padding:0 15px;
 }
-nav li a{
-	color:#d6d5d5;
-	display:block;
-	font-size:16px;
-    line-height:3;
-	padding:0;
+nav li a {
+    color: #000000;
+    display: block;
+    font-size: 16px;
+    line-height: 3;
+    padding: 0;
 }
 nav li a span{
     color:#fff000;
@@ -936,7 +936,7 @@ div.builder.see{
     top: 0;
     left: 100%;
     z-index: 99;
-    background: #000;
+    background: #6185B3;
     transition: .5s;
 }
   
@@ -987,4 +987,11 @@ div.builder.see{
     .one-line {
         width: 81%;
     }
+}
+
+
+.han-line {
+    width: 55%;
+    height: auto;
+    margin-top: 8vw;
 }
