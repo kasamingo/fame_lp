@@ -976,6 +976,13 @@ div.builder.see{
     left: 50%;
     transform: translatex(-50%);
 }
+.img-t {
+    width: 80%;
+    position: relative;
+    left: 30%;
+    transform: translateX(-26%);
+    margin-top: 20px;
+}
 
 
 

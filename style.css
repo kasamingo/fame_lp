@@ -764,7 +764,16 @@ div.builder.see{
 .cta-wrapper{
     display: none;
 }
-
+#trouble p{
+    text-align: center;
+}
+.img-t {
+    width: 94%;
+    position: relative;
+    left: 30%;
+    margin: 20px 20px 2px 20px;
+    transform: translateX(-37%);
+}
 
 @media screen and (max-width:1030px){
     section#main {
