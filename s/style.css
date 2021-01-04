@@ -984,8 +984,6 @@ div.builder.see{
     margin-top: 20px;
 }
 
-
-
 @media screen and (max-width: 770px){
     .one-line {
         width: 66%;
@@ -994,6 +992,16 @@ div.builder.see{
         left: 50%;
         transform: translateX(-50%);
     }
+    .tayhoon {
+        color: #ff5604;
+        font-weight: bold;
+        font-size: 19px;
+        margin-top: 3vw;
+        text-align: center;
+    }
+    #main {
+        height: 110vh;
+    }
 }
 
 
@@ -1001,6 +1009,29 @@ div.builder.see{
 @media screen and (max-width: 420px){
     .one-line {
         width: 81%;
+    }
+    .tayhoon {
+        color: #ff5604;
+        font-weight: bold;
+        font-size: 16px;
+        margin-top: 3vw;
+        text-align: center;
+    }
+    #main {
+        height: 90vh;
+    }
+}
+
+@media screen and (max-width: 380px){
+    .tayhoon {
+        color: #ff5604;
+        font-weight: bold;
+        font-size: 15px;
+        margin-top: 3vw;
+        text-align: center;
+    }
+    #main {
+        height: 75vh;
     }
 }
 

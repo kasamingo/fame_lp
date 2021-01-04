@@ -191,8 +191,8 @@ div.button {
     left: 17%;
 }
 div.button2 {
-    background: #03c400 url(img/arrow.png) no-repeat;
-    background-size: 25px 25px;
+    background: #03c400 url(http://127.0.0.1:5500/img/arrow.png) no-repeat;
+    background-size: 32px 36px;
     background-position: 255px 25px;
     border-radius: 5px;
     cursor: pointer;
@@ -201,8 +201,8 @@ div.button2 {
     padding: 0;
     transition: all 0.8s;
     position: absolute;
-    bottom: 10%;
-    left: 17%;
+    bottom: 2%;
+    left: 34%;
 }
 div.button:hover{
     background:#ff9100 url("img/arrow.png") no-repeat;/*#FF9600 */
@@ -480,23 +480,23 @@ section#check li.kotira.right{
     display:table-cell;
     padding:0 0 0 10px;
 }
-section#check li.kotira ul{
-    background:#fff;
-    border:4px solid #ffffff;
-    border-radius:10px;
-    height:100%;
-    padding:15px 20px 40px 20px;
-    height: 600px;
+section#check li.kotira ul {
+    background: #fff;
+    border: 4px solid #ffffff;
+    border-radius: 10px;
+    height: 100%;
+    padding: 15px 20px 40px 20px;
+    height: 630px;
     position: relative;
 }
 section#check li.kotira li{
     margin-top:15px;
     text-align:center;
 }
-section#check li.kotira img{
-    margin:0 auto;
-    width:60%;
-    height:auto;
+section#check li.kotira img {
+    margin: 0 auto;
+    width: 32%;
+    height: auto;
 }
 section#check li.kotira li.btn{
     margin-top:30px;
@@ -750,6 +750,7 @@ div.builder.see{
     left: -2vw;
 }
 .one-line{
+    width: 30%;
     padding: 18px;
 }
 .cta {
@@ -773,6 +774,11 @@ div.builder.see{
     left: 30%;
     margin: 20px 20px 2px 20px;
     transform: translateX(-37%);
+}
+.tayhoon {
+    color: #ea6183;
+    margin-top: 19px;
+    font-size: 22px;
 }
 
 @media screen and (max-width:1030px){
